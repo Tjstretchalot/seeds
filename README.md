@@ -34,3 +34,12 @@ will also contain all configuration except for the location of the database serv
 For both the Java layers they will use sane performance considerations to give a more realistic
 portrayal of the amount of boilerplate required. There will not be a login system, since there is no
 uncertainty that I can implement those already.
+
+## Folder Structure
+
+The folders 'database', 'simulator', and 'website' each correspond to one independent application.
+In each they contain a custom folder, which is specific to the seeds project and serves only as an
+example, and a shared folder which is software that I expect to reuse in future projects.
+
+There is the additional 'shared-java' folder which contains some code that is shared between the
+database and simulator portions.
